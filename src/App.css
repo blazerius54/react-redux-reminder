@@ -1,0 +1,42 @@
+.App {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 26px;
+}
+
+input {
+    margin: 5px;
+}
+
+.reminder-form {
+    
+    padding: 5px;
+}
+
+.reminder-form .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner-div {
+    display: flex;
+}
+
+.inner-div * {
+    margin-left: 7px;
+}
+
+.btn-danger {
+    margin-top: 5px;
+}
